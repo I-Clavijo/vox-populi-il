@@ -1,9 +1,25 @@
 export default function Hero() {
-    return (
-      <section className="text-center py-12 bg-blue-50 rounded-lg mb-8">
-        <h1 className="text-4xl font-bold mb-4">Have Your Say on the Latest Knesset Bills!</h1>
-        <p className="text-xl text-gray-600">Browse proposed laws, vote, and share your thoughts.</p>
-      </section>
-    )
-  }
-  
+  return (
+    <section className="relative mb-8 h-[60vh] overflow-hidden">
+      <video
+        className="absolute left-0 top-0 h-full w-full object-cover"
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
+        {/*<source src="../videos/knessetVideo.mp4" type="video/webm" />*/}
+        <source src="/videos/knessetVideo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div className="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center bg-black bg-opacity-50 text-center text-white">
+        <h1 className="mb-4 text-4xl font-bold md:text-5xl">
+          Have Your Say on the Latest Knesset Bills!
+        </h1>
+        <p className="text-xl md:text-2xl">
+          Browse proposed laws, vote, and share your thoughts.
+        </p>
+      </div>
+    </section>
+  );
+}
