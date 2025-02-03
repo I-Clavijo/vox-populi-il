@@ -8,8 +8,8 @@ async function getBillData(id: string) {
     title: "Economic Recovery Act",
     proposedDate: "2023-05-15",
     proposedBy: [
-      { name: "John Doe", party: "Labor", avatar: "/placeholder.svg" },
-      { name: "Jane Smith", party: "Likud", avatar: "/placeholder.svg" },
+      { name: "John Doe", party: "Labor", avatar: "/images/placeholder.png" },
+      { name: "Jane Smith", party: "Likud", avatar: "/images/placeholder.png" },
     ],
     fullDescription:
       "This bill aims to stimulate economic growth and job creation through a series of targeted measures including tax incentives for small businesses, infrastructure investment, and workforce development programs.",
