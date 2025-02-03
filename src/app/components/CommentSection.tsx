@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type React } from "react";
+import { useState } from "react";
 
 interface Comment {
   id: string;
