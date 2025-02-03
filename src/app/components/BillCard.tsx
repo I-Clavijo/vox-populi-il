@@ -61,12 +61,14 @@ export default function BillCard({
         </div>
         <span className="text-sm text-gray-500">{commentCount} comments</span>
       </div>
+      {/*
       <Link
         href={`/bill/${id}`}
         className="block w-full rounded bg-blue-500 py-2 text-center text-white hover:bg-blue-600"
       >
         View Full Details
       </Link>
+      */}
     </div>
   );
 }
